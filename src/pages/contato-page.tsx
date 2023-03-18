@@ -1,10 +1,11 @@
-import Layout from "../components/template/default"
+import Layout from "../components/layout/default"
+import ContatoComponents from "../components/components-contato/mainContato"
 
 const ContatoPage = (): JSX.Element => {
   return (
     <Layout>
       <>
-        Contato Page
+        <ContatoComponents />
       </>
     </Layout>
   )

@@ -1,5 +1,5 @@
-import Layout from '../components/template/default'
-import Main from './componets-home/main';
+import Layout from '../components/layout/default'
+import Main from '../components/components-home/main';
 
 const HomePage = (): JSX.Element => {
   return (

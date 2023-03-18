@@ -1,11 +1,10 @@
-import Layout from "../components/template/default"
+import Layout from "../components/layout/default"
+import SobreComponents from "../components/components-sobre/mainSobre"
 
 const AboutPage = (): JSX.Element => {
   return (
     <Layout>
-      <>
-        About
-      </>
+      <SobreComponents />
     </Layout>
   )
 }

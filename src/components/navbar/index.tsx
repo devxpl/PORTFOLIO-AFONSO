@@ -2,9 +2,9 @@ import Link from './components-interno/link'
 
 const Navbar = (): JSX.Element => {
   return (
-      <nav className="p-5">
-        <ul className="">
-          <li className='text-white font-mono flex items-center justify-center pl-5 xsm:pl-4 sm:pl-5'>
+      <nav className="w-screen h-full flex text-white font-mono flex-row-reverse xsm:pr-6 sm:pr-8">
+        <ul>
+          <li>
             <Link href="/" label="Iníco" />
             <Link href="/contato" label="Contato" />
             <Link href="/sobre" label="Sobre" />
