@@ -11,7 +11,7 @@ const ContatoPage: React.FC = (): JSX.Element => {
           <ContactInfo
             email="dev-xpl@hotmail.com"
             phone="(19) 98772-1696"
-            discord="nome#1234"/>
+            discord="xpl#2365"/>
       </section>
      </main>
     </Layout>

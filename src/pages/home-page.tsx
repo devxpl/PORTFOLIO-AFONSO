@@ -4,8 +4,9 @@ import Main from '../components/components-home/main';
 const HomePage = (): JSX.Element => {
   return (
    <>
-    <Layout>{''}</Layout>
-    <Main />
+    <Layout>
+     <Main/>
+    </Layout>
    </>
   )
 }
